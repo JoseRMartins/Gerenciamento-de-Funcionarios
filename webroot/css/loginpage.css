@@ -1,0 +1,81 @@
+:root{
+    --branco: #FFFFFF;
+    --azul_claro: #46C4F6;
+    --azul_escuro: #2A86F5;
+}
+.bg-light{
+    background: linear-gradient(to bottom, #46C4F6, #2A86F5, #E8EAE7);
+}
+#rememberMe{
+    border-radius: 50%;
+}
+#email, #password {
+    border-radius: 10px ; 
+    box-shadow:2px 2px 2px #D9D9D9;
+}
+#password {
+    border-right: none !important;
+}
+#email:focus{
+    border:1px solid #2A86F5;
+}
+#password:focus{
+    border:1px solid #2A86F5;
+}
+#email:hover{
+    border: 1px solid #2A86F5;
+}
+#password:hover{
+    border: 1px solid #2A86F5;
+}
+.linkedin-btn{
+    color: #2A86F5;
+    border: 1px solid #2A86F5;
+}
+.linkedin-btn:hover{
+    background-color: var(--azul_escuro);
+    color: var(--branco);
+    border: 1px solid var(--azul_claro);
+}
+.google-btn{
+    color: #DB4437;
+    border:1px solid #C33C2C;
+}
+.google-btn:hover{
+    background-color: #DB4437;
+    color: var(--branco);
+    border: 1px solid #C33C2C;
+}
+.card{
+    border-radius: 15px;
+}
+.btn{
+    border-radius: 20px;
+    transition: transform 0.15s ease-in-out;
+}
+.btn:active{
+    transform: scale(0.95);
+}
+.logo {
+    width: 40px; 
+    height: auto; 
+}
+h2 {
+    font-size: 1.5rem; 
+    font-weight: 500; 
+}
+.d-flex {
+    gap: 0.5rem; 
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.error-message{
+    color: red;
+}
