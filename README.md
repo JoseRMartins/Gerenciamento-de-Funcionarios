@@ -1,26 +1,19 @@
-# CakePHP Application Skeleton
+# CakePHP Application
+Utilizamos nesse projeto o framework CakePHP, na sua versão 3.9
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![Total Downloads](https://img.shields.io/packagist/dt/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
-
-A skeleton for creating applications with [CakePHP](https://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
-
-## Installation
-
+## Instalação Composer
+####Primeiro baixe o composer (se já estiver instalado na máquina não precisa instalar novamente)
 1. Download [Composer](https://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
 
-If Composer is installed globally, run
+##Instalação WampServer
+####Você irá precisar de um servidor Apache e o PHP na sua versão 7.4
+1. Vá no site do WampServer e baixe-o gratuitamente
+(https://www.wampserver.com/en/download-wampserver-64bits/)
+2. Depois da instalação, você poderá ver o wampServer nos ícones ocultos na sua barra de navegação do windows rodando em segundo plano.
+Você pode tanto clicar com botão esquerdo como o direito para abrir suas configurações, porém, aperte com o botão direito para abrir
+as opções de ferramentas. Clique no PHP>Version>Escolha a versão 7.4
 
-```bash
-composer create-project --prefer-dist "cakephp/app:^3.8"
 ```
-
-In case you want to use a custom app dir name (e.g. `/myapp/`):
-
-```bash
 composer create-project --prefer-dist "cakephp/app:^3.8" myapp
 ```
 
